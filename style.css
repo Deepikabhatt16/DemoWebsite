@@ -1,0 +1,36 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+  .head{
+    margin-top: 24px;
+    font-family: cursive;
+    text-shadow:5px 3px 4px #ef8172;
+    font-size: 44px;
+    text-decoration: double;
+  }
+  .col1{
+    display: block;
+gap: 1em;
+    box-shadow: 2px 2px 2px#ff4c68;
+  }
+  .img {
+    margin-top: 15px;
+    height: 200px;
+  }
+  
